@@ -1,0 +1,58 @@
+#root {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: darkgray;
+}
+
+.container {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.jobListContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.jobCard {
+  background-color: rgba(0, 0, 0, 0.696);
+  color: white;
+  width: 100%;
+  padding: 2rem;
+  border-radius: 1rem;
+  span {
+    margin-right: 2rem;
+  }
+}
+
+.jobTitle {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.noLink {
+  cursor: not-allowed;
+}
+
+.loadMore {
+  background-color: rgba(0, 0, 0, 0.696);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  align-self: flex-end;
+}
